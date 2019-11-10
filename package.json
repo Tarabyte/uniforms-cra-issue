@@ -3,15 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.25.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "serve": "^11.2.0",
+    "uniforms": "2.6.0",
+    "uniforms-antd": "2.6.0",
+    "uniforms-bridge-json-schema": "2.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "preserve": "yarn build",
+    "serve": "serve build"
   },
   "eslintConfig": {
     "extends": "react-app"
